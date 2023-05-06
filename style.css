@@ -1,0 +1,231 @@
+/*/*/
+.navbar-brand {
+      display: inline-flex;
+      color: black;
+    }
+
+    .sticky-nav .navbar-collapse {
+      display: none;
+      color: black;
+    }
+
+    .sticky-nav.navbar-scrolled .navbar-collapse {
+      
+       display: inline-block;  
+      list-style: none;
+      color: black;
+    }
+#tagline{
+  font-size: 35px;
+  color: black;
+}
+#p{
+  color: black;
+  font-size: 15px;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background:#8A624A;
+  color: #F5BD02 ;
+  height: 50px;
+}
+
+/* Hero section using the rule of thirds */
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  background-image: url('assets/c.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+
+}
+
+
+#h2{
+  color: black;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+/* Photo section */
+.photo-section {
+  height: 630px;
+  background: url('assets/cover2.jpg');
+  padding-top:60px;
+  background-position: center;
+  background-size: cover;
+}
+
+#h1{
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+#p{
+  color: black;
+  font-size: 18px;
+  align-items: center;
+}
+.photo-section .row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.photo-section img {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/* Contact section */
+.contact-section {
+  padding: 50px 0;
+  background: url('assets/cover3.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-left: 200px;g
+  
+}
+
+.contact-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: black;
+}
+
+.contact-section .col-md-6 {
+  width: 48%; 
+  margin-bottom: 20px; 
+  color: black;
+}
+
+/* Contact section styles */
+.contact-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+#name, #email{
+  width: 300px;
+}
+
+#submit{
+  margin-left: 250px;
+  width: 100px;
+}
+
+#message{
+  height: 100px;
+  width: 350px;
+}
+/* Map container styles */
+.map-container {
+ 
+  overflow: hidden;
+  float: right;
+
+}
+
+.map-container .gmap_canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Adjust responsiveness for smaller screens */
+@media (max-width: 767px) {
+  .contact-section .col-md-6 {
+    width: 100%;
+  }
+}
+
+.map-container {
+  padding-top: 50px;
+  height: 400px;
+}
+
+/* Contact section styles */
+.contact-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+/* Map container styles */
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Maintain aspect ratio (16:9) for the map */
+}
+
+.map-container .gmap_canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Footer section */
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.social-media-icons .social-link {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.email-signup h3 {
+  margin-bottom: 20px;
+}
+
+.email-signup form {
+  display: flex;
+}
+
+.email-signup .form-control {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  margin-right: 10px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #999;
+}
+
