@@ -3,225 +3,232 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>My Portfolio</title>
 
+<!-- BOOTSTRAP 5 LINKS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
 
-  <!-- BOOTSTRAP 5 LINKS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.min.css">
+<!-- FONT AWESOME LINKS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- FONT AWESOME LINKS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- CSS LINKS-->
+<link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- CSS LINKS-->
-  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-nav">
-    <div class="container">
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+  <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="assets/shutterstory.png" alt="Logo" height="50px" width="100px">
+        <img src="img/shutterstory.png" alt="Logo" height="50" width="120">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-home" id="p"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"></i> About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
-          </li>
-        </ul>
-      </div> 
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="hero-section" class="hero-section">
-    <div class="container">
-      <!-- Hero Content -->
-      <h1 id="tagline">"Unveiling Moments, Crafting Memories."</h1>
- 
-      <h2 id="h2">ShutterStory is not just a photography business but a destination, <br> 
-      where stories come to life through the lens, connecting people <br> with their cherished memories. </h2>
-    
-    </div>
-  </section>
-  
-  <!-- Photo Section -->
-  <section id="photo-section" class="photo-section">
-  <center><h1 id="h1">ABOUT US</h1></center>
-  <br>
- 
-   <center><p id="p">ShutterStory Photography believes that every moment is special and deserves to be preserved in a way that is both authentic and timeless. We committed to working closely with clients, building a rapport, and creating a comfortable and enjoyable atmosphere during each photography session. Our mission is to make the experience memorable and to create images that will be cherished for generations to come</p></center>
-   <br><br>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <!-- Insert your own photo/image -->
-          <img src="assets/img1.jpeg" alt="Photo 2" class="img-fluid" height="350px" width="280px" >
-        </div>
-        <div class="col-md-4">
-          <!-- Insert your own photo/image -->
-          <img src="assets/photographyPhoto.jpg" alt="Photo 3" class="img-fluid" height="350px" width="280px">
-        </div>
-        <div class="col-md-4">
-          <!-- Insert your own photo/image -->
-          <img src="assets/img3.jpeg" alt="Photo 4" class="img-fluid"  height="350px" width="280px">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="
-    contact-section" class="contact-section">
-    <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Contact Information</h1>
-        <ul class="list-unstyled">
-          <li>
-            <i class="fas fa-map-marker-alt"></i> Address: Butong, Cabuyao Laguna, Philippines, 2045
-          </li>
-          <li>
-            <i class="fas fa-phone"></i> Phone: +1 234 567 890
-          </li>
-          <li>
-            <i class="fas fa-envelope"></i> Email: shutterstory@gmail.com
-          </li>
-        </ul>
-        <div class="mt-4">
-          <h3>Follow us on social media:</h3>
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a href="#" class="social-link">
-                <i class="fab fa-facebook-f">https://www.facebook.com/shutterstory</i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="social-link">
-                <i class="fab fa-twitter" >https://twitter.com/shutterstory</i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="social-link">
-                <i class="fab fa-instagram">www.instagram.com/shutterstory</i>
-              </a>
-            </li>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero-section">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo-section">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services-section">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
           </ul>
-        </div>
+          <div class="nav-icons">
+              <a href="https://www.tiktok.com/@_attiya13?_t=8cRSaMLsjEQ&_r=1"><i class="fab fa-tiktok"></i></a>
+              <a href="https://www.facebook.com/omictin.ayahel"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/_ayahel?igshid=MzNlNGNkZWQ4Mg=="><i class="fab fa-instagram"></i></a>
+          </div>
       </div>
-      <div class="col-md-6">
-        <h1 >Contact Form</h1>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Name: </label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-          </div>
-          <br>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email: </label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-          </div>
-          <br>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message: </label><br><br>
-            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-          </div><br>
-          <button type="submit" class="btn btn-primary" id="submit">Submit</button>
-        </form>
+  </div>
+</nav>
+
+
+
+
+<!-- Hero Section -->
+<section id="hero-section" class="hero-section">
+  <div class="container">
+    <!-- Hero Content -->
+    <div class="slide-in">
+   <h1 id="tagline">"Unveiling Secrets, Capturing Moments"</h1><br>
+   <center> <h2 id="h2">Enter the World of ShutterStory</h2></center>  
+  </div> 
+</section>
+
+<section class="photo-section" id="photo-section">
+  <div class="container">
+    <div class="row slide-right">
+      <div class="col-lg-12">
+        <h2>About Me</h2>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/self.jpg" alt="Profile Picture">
+      </div>
+      <div class="col-lg-8 text">
+        <p class="card-text">Meet Ayahel B. Omictin, a 3rd year Bachelor of Science in Information Technology at Pamantasan ng Cabuyao, the visionary CEO of ShutterStory, a leading photography business dedicated to capturing and preserving life's most precious moments. With a passion for storytelling through the lens and a deep understanding of the power of imagery, Ayahel has built a thriving company that has become synonymous with excellence in the industry.</p>
+        <p class="card-text">Driven by a genuine passion for storytelling and a commitment to providing exceptional photography services, Ayahel leads ShutterStory with a clear vision: to create lasting memories that transcend time and touch the hearts of generations to come.</p>
       </div>
     </div>
   </div>
-  </section>
+</section>
 
-  <!-- Maps Section -->
-  <section id="maps-section" class="maps-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-              <iframe width="100%" height="300" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.891992742905!2d121.13128317456719!3d14.25952068533735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d88258da3383%3A0x3db6c2402700f58f!2sPamantasan%20ng%20Cabuyao!5e0!3m2!1sen!2sph!4v1683343546501!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              <a href="https://embedgooglemap.net/maps/83"></a>
-          <div class="map-container">
-          
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- Services Section -->
 <center>
- <footer class="footer">
+<section id="services-section" class="services-section">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="footer-logo">
-          <img src="assets/s.png" alt="Logo" height="500px" width="500px">
-        </div>
-      <div class="col-md-6">
-        <div class="social-media-icons">
-          <a href="#" class="social-link">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="social-link">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" class="social-link">
-            <i class="fab fa-instagram"></i>
-          </a>
+    <h1 id="h1">SERVICES</h1>
+    <div class="slider">
+      <div class="card">
+        <img src="img/event1.jpg" class="card-img-top" alt="Service 1">
+        <div class="card-body">
+          <h5 class="card-title">Event Photography</h5>
+          <p class="card-text"> Whether it's a wedding, birthday party, corporate event, or any special occasion, our event photography services ensure that every precious moment is beautifully documented. We capture the essence and atmosphere of your event, creating stunning images that tell your unique story.</p>
         </div>
       </div>
+      <div class="card">
+        <img src="img/event2.jpg" class="card-img-top" alt="Service 2">
+        <div class="card-body">
+          <h5 class="card-title">Portrait Photography</h5>
+          <p class="card-text">Our portrait photography sessions are tailored to bring out the best in every individual. From family portraits and newborn shoots to headshots and senior portraits, we create captivating images that reflect your personality and preserve your memories for a lifetime</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/event3.jpg" class="card-img-top" alt="Service 3">
+        <div class="card-body">
+          <h5 class="card-title">Photo Editing and Retouching</h5>
+          <p class="card-text">We also offer professional photo editing and retouching services. Our skilled editors enhance colors, adjust lighting, remove imperfections, and bring out the best in each photo, ensuring that your final images are flawless and visually striking.</p>
+        </div>
+
+      </div>
     </div>
+  </div>
+</section>
+</center>
+
+ <!-- Contact Section -->
+<section id="contact" class="contact-section bg-light">
+  <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Contact Us</h2>
+                <p>Got questions or inquiries? Reach out to us! We're here to help. Contact us today.</p>
+                <form method="post" action="send-message.php">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control neumorphic-input" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control neumorphic-input" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control neumorphic-input" id="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <h2>Visit Us</h2>
+                <p>Stop by our office to discuss your project or ideas.</p>
+                <address>
+                    <strong>ShutterStory</strong><br>
+                    Saint Joseph 6 Brgy Butong Cabuyao Laguna
+                </address>
+                <div class="col-md-6">
+                    <h2>Contact Details</h2><br>
+                    <ul class="list-inline contact-details">
+                        <li><i class="fas fa-envelope"></i> <a href="omictinayahel30@gmail.com">omictinayahel30@gmail.com</a></li> <br>
+                        <li><i class="fas fa-phone"></i> +639 912411546</li> <br>
+                        <li><i class="fas fa-map-marker-alt"></i> Saint Joseph 6, Brgy Butong Cabuyao Laguna</li>
+                        <br>
+                        <li><i class="fas fa-clock"></i> Monday-Friday: 9am-5pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div id="map" style="height: 400px;">
+                  <iframe width="100%" height="300" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.891992742905!2d121.13128317456719!3d14.25952068533735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d88258da3383%3A0x3db6c2402700f58f!2sPamantasan%20ng%20Cabuyao!5e0!3m2!1sen!2sph!4v1683343546501!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <a href="https://embedgooglemap.net/maps/83"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEOS -->
+<div class="container-fluid video-section">
+  <h2 class="mt-5 mb-4 text-center">Shutter Stories: Photography Video Insights</h2>
+  <div class="row">
+    <div class="col-lg-4">
+      <iframe width="100%" height="225" src="https://www.youtube.com/embed/49m11dt0Nsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-4">
+      <iframe width="100%" height="225" src="https://www.youtube.com/embed/gHG-YSKYx3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-4">
+      <iframe width="100%" height="225" src="https://www.youtube.com/embed/k9x4fkJ7l_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+       
+<center>
+  <footer class="footer">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="footer-links">
           <a href="#">Privacy Policy</a>
-          <a href="#">Sitemap</a>
+          <a href="#">Sitemap</a><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="footer-text">&copy; 2023 ShutterStory. All rights reserved.</p>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <p class="footer-text">&copy; 2023 ShutterStory. All rights reserved.</p>
-      </div>
-    </div>
-  </div>
-</footer>
+  </footer>
 </center>
-
-
-   <!-- Bootstrap JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+<script>
+    function initMap() {
+        var options = {
+            zoom: 10,
+            center: { lat: 40.712776, lng: -74.005974 } // Replace with your desired coordinates
+        }
+        var map = new google.maps.Map(document.getElementById('map'), options);
+    }
+</script>
   <script>
-    // JavaScript to handle scroll event
-    window.addEventListener('scroll', function () {
-      const header = document.querySelector('.sticky-nav');
-      const navbar = document.querySelector('.navbar-collapse');
-      const scrollPosition = window.pageYOffset;
+    document.addEventListener("DOMContentLoaded", function() {
+      var header = document.querySelector('.header');
+      var nav = document.querySelector('.navbar');
+      var navHeight = nav.offsetHeight;
 
-      if (scrollPosition === 0) {
-        header.classList.remove('navbar-scrolled');
-      } else {
-        header.classList.add('navbar-scrolled');
-      }
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset >= header.offsetHeight) {
+          nav.classList.add('fixed-top-scroll');
+        } else {
+          nav.classList.remove('fixed-top-scroll');
+        }
+      });
     });
   </script>
-
-  <!-- JavaScript dependencies -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
